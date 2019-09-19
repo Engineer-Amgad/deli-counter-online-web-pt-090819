@@ -8,10 +8,10 @@ def line(katz_deli)
   else
     current_line = []
     katz_deli.each do |el|
-      current_line << "The line is currently: #{katz_deli.index(el) + 1}. #{el}"
+      current_line << "#{katz_deli.index(el) + 1}. #{el}"
       
     end
-    puts "#{current_line.join}"
+    puts "The line is currently:#{current_line.join}"
   end
   
 end 
