@@ -11,7 +11,7 @@ def line(katz_deli)
       current_line << "#{katz_deli.index(el) + 1}. #{el}"
       
     end
-    puts "The line is currently: #{current_line.join}"
+    puts "The line is currently: #{current_line.join" "}"
   end
   
 end 
