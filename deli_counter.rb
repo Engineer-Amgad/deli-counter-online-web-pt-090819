@@ -7,9 +7,10 @@ def line(katz_deli)
     puts "The line is currently empty." 
   else
     current_line = []
+    counter = 0 
     katz_deli.each do |el|
-      current_line << "#{katz_deli.index(el) + 1}. #{el}"
-      
+      #current_line << "#{katz_deli.index(el) + 1}. #{el}"
+      katz_deli[counter] = 
     end
     puts "The line is currently: #{current_line.join" "}"
   end
