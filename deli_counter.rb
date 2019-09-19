@@ -13,8 +13,8 @@ def line(katz_deli)
       katz_deli[counter] = "#{katz_deli.index(el) + 1}. #{el}"
       counter += 1 
     end
-    #puts "The line is currently: #{current_line.join" "}"
-    #puts "The line is currently: #{katz_deli.join(" ")}"
+    #puts "The line is currently: #{current_line.join(" ")}"
+    puts "The line is currently: #{katz_deli.join(" ")}"
   end
   
 end 
@@ -25,6 +25,3 @@ def take_a_number(katz_deli, name)
   
 end 
 
-def take_a_number
-  
-end 
